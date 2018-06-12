@@ -60,7 +60,8 @@ console.log(theSifu);
 
 var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 
-
+var smallKine = bigTime.toLowerCase();
+console.log(smallKine);
 
 /*The toUpperCase() method converts the characters in a string to upper case.*/
 
@@ -68,7 +69,8 @@ var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 
 var bandName = "the beatles";
 
-
+var bigBand = bandName.toUpperCase();
+console.log(bigBand);
 
 /*The split() method converts a string into an array, by separating the string into substrings.*/
 

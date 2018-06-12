@@ -51,7 +51,8 @@ console.log(scissorHand);
 
 var grasshopper = "In order to taste my cup of water you must first fill your cup.";
 
-
+var theSifu = grasshopper.replace("fill", "empty");
+console.log(theSifu);
 
 /*The toLowerCase() method converts the characters in a string to lower case.*/
 

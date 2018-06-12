@@ -24,7 +24,8 @@ console.log(longestPlaceName + " is the longest place name in the world and has 
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
 
-
+var fifthLetter = iDidntKnow.charAt(5);
+console.log(fifthLetter);
 
 /*The indexOf() method returns the index (position) of the first occurence of a specified text in a string.*/
 
@@ -32,7 +33,8 @@ var iDidntKnow = "The national animal of Scotland is the Unicorn";
 
 var randomFact = "All pandas in the world are on loan from China.";
 
-
+var worldLocator = randomFact.indexOf("world");
+console.log(worldLocator);
 
 /*The slice() method extracts a part of a string and returns the extracted part into a new string. This method takes 2 parameters: the starting index (position) and the ending index (position)*/
 
@@ -40,7 +42,8 @@ var randomFact = "All pandas in the world are on loan from China.";
 
 var edward = "People are afraid of me because I am different";
 
-
+var scissorHand = edward.slice(6, 17);
+console.log(scissorHand);
 
 /*The replace() method replaces a specified value with another value in a string.*/
 
